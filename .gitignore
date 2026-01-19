@@ -1,0 +1,28 @@
+# Fichiers de l'IDE
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+
+# Dossiers de compilation (Build)
+# Important : ignorer les dossiers build à la racine ET dans le dossier app
+/build
+/app/build
+/captures
+
+# CMake / C++ (si vous en utilisez plus tard)
+.externalNativeBuild
+.cxx
+
+# Fichiers de signatures (Secrets)
+*.jks
+*.keystore
+
+# Logs
+*.log

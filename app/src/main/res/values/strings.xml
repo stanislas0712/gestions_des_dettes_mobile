@@ -1,0 +1,103 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Carnet de Dettes</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Carnet de Dettes</string>
+    <string name="login_subtitle">Gestion de boutique simplifiée</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="login">Se connecter</string>
+    <string name="register">Créer un compte</string>
+    <string name="forgot_password">Mot de passe oublié ?</string>
+
+    <!-- Main Dashboard -->
+    <string name="dashboard">Tableau de bord</string>
+    <string name="welcome">Bienvenue</string>
+    <string name="total_clients">Clients</string>
+    <string name="total_debts">Dettes actives</string>
+    <string name="total_amount">Montant total</string>
+    <string name="top_debtors">Clients les plus endettés</string>
+
+    <!-- Clients -->
+    <string name="clients">Clients</string>
+    <string name="add_client">Ajouter un client</string>
+    <string name="edit_client">Modifier le client</string>
+    <string name="client_details">Détails du client</string>
+    <string name="client_name">Nom du client</string>
+    <string name="phone_number">Numéro de téléphone</string>
+    <string name="address">Adresse (optionnelle)</string>
+    <string name="total_debt">Dette totale</string>
+    <string name="no_clients">Aucun client enregistré</string>
+    <string name="search_client">Rechercher un client…</string>
+
+    <!-- Dettes -->
+    <string name="debts">Dettes</string>
+    <string name="add_dette">Nouvelle dette</string>
+    <string name="product_description">Produit ou description</string>
+    <string name="amount">Montant</string>
+    <string name="date">Date</string>
+    <string name="remaining_balance">Solde restant</string>
+    <string name="status">Statut</string>
+    <string name="status_ongoing">En cours</string>
+    <string name="status_paid">Payé</string>
+    <string name="no_debts">Aucune dette enregistrée</string>
+
+    <!-- Paiements -->
+    <string name="payments">Paiements</string>
+    <string name="add_paiement">Enregistrer un paiement</string>
+    <string name="payment_amount">Montant du paiement</string>
+    <string name="payment_date">Date du paiement</string>
+    <string name="no_payments">Aucun paiement enregistré</string>
+    <string name="history">Historique</string>
+
+    <!-- Actions -->
+    <string name="save">Enregistrer</string>
+    <string name="cancel">Annuler</string>
+    <string name="delete">Supprimer</string>
+    <string name="edit">Modifier</string>
+    <string name="confirm">Confirmer</string>
+    <string name="logout">Déconnexion</string>
+
+    <!-- Messages -->
+    <string name="loading">Chargement…</string>
+    <string name="please_wait">Veuillez patienter…</string>
+    <string name="success">Succès</string>
+    <string name="error">Erreur</string>
+    <string name="fill_all_fields">Veuillez remplir tous les champs</string>
+    <string name="invalid_email">Email invalide</string>
+    <string name="password_too_short">Le mot de passe doit contenir au moins 6 caractères</string>
+    <string name="login_success">Connexion réussie</string>
+    <string name="login_failed">Email ou mot de passe incorrect</string>
+    <string name="network_error">Erreur de connexion</string>
+    <string name="client_added">Client ajouté avec succès</string>
+    <string name="client_updated">Client modifié avec succès</string>
+    <string name="client_deleted">Client supprimé</string>
+    <string name="dette_added">Dette enregistrée</string>
+    <string name="payment_added">Paiement enregistré</string>
+    <string name="confirm_delete_client">Voulez-vous vraiment supprimer ce client et toutes ses dettes ?</string>
+    <string name="confirm_delete_dette">Voulez-vous vraiment supprimer cette dette ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+
+    <!-- Currency -->
+    <string name="currency_format">%s FCFA</string>
+    <string name="fcfa">FCFA</string>
+
+    <!-- Menu -->
+    <string name="menu_search">Rechercher</string>
+    <string name="menu_filter">Filtrer</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_about">À propos</string>
+
+    <!-- Empty States -->
+    <string name="empty_clients_title">Aucun client</string>
+    <string name="empty_clients_message">Commencez par ajouter votre premier client</string>
+    <string name="empty_debts_title">Aucune dette</string>
+    <string name="empty_debts_message">Ce client n\'a pas de dettes enregistrées</string>
+
+    <!-- Date Format -->
+    <string name="date_format">dd/MM/yyyy</string>
+    <string name="today">Aujourd\'hui</string>
+    <string name="yesterday">Hier</string>
+</resources>
