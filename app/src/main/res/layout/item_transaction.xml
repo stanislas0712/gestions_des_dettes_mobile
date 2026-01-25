@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:layout_marginBottom="1dp"
+    android:padding="16dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/trans_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Achat de marchandises"
+            android:textColor="#1A1A1A"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/trans_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22 Janvier 2026"
+            android:textSize="12sp"
+            android:textColor="#888888" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/trans_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ 5 000 F"
+        android:textColor="#C4562C"
+        android:textStyle="bold" />
+</LinearLayout>

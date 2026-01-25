@@ -35,7 +35,7 @@
                     android:background="@android:color/white"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="@string/connexion"
+                    android:text="@string/inscription"
                     android:textColor="#333333"
                     android:textStyle="bold" />
 
@@ -45,7 +45,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="@string/inscription"
+                    android:text="@string/connexion"
                     android:textColor="#888888" />
             </LinearLayout>
 
@@ -53,7 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
-                android:text="@string/bienvenue"
+                android:text="@string/cree_compte"
                 android:layout_gravity="center"
                 android:textColor="#1A1A1A"
                 android:textSize="22sp"
@@ -89,7 +89,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="@string/mots_de_passe"
+                android:text="@string/entre_mot_de_passe"
+                android:textColor="#1A1A1A"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/edittext_bg"
+                android:drawablePadding="10dp"
+                android:hint="........"
+                android:inputType="textPassword"
+                android:paddingLeft="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/confirmer_votre_mot_de_passe"
                 android:textColor="#1A1A1A"
                 android:textStyle="bold" />
 
@@ -108,7 +126,7 @@
                 android:layout_height="55dp"
                 android:layout_marginTop="24dp"
                 android:backgroundTint="#C4562C"
-                android:text="@string/login"
+                android:text="@string/inscription"
                 android:textAllCaps="false"
                 android:textColor="@android:color/white"
                 android:textSize="16sp"

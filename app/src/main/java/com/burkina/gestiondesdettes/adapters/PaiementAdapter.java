@@ -1,4 +1,4 @@
 package com.burkina.gestiondesdettes.adapters;
 
-public class DetteListe {
+public class PaiementAdapter {
 }

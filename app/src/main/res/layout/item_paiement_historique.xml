@@ -32,21 +32,22 @@
                 android:text="Nom du Client"
                 android:textColor="#1A1A1A"
                 android:textStyle="bold" />
+
             <TextView
-                android:id="@+id/txt_description_dette"
+                android:id="@+id/txt_methode_paye"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Description de la dette"
-                android:textColor="#888888" />
-
+                android:text="Orange Money • 14:30"
+                android:textColor="#888888"
+                android:textSize="12sp" />
         </LinearLayout>
 
         <TextView
-            android:id="@+id/txt_montant_dette"
+            android:id="@+id/txt_montant_paye"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="+ 10 000 F"
-            android:textColor="#FF0000"
+            android:textColor="#2E7D32"
             android:textStyle="bold"
             android:textSize="16sp" />
 

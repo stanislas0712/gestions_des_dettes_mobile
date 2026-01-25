@@ -29,7 +29,7 @@
                     android:background="@android:color/white"
                     android:gravity="center"
                     android:padding="15dp"
-                    android:text="Nouvelle Dette"
+                    android:text="Nouveau Client"
                     android:textColor="#333333"
                     android:textStyle="bold"
                     android:textSize="16sp" />
@@ -44,48 +44,36 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Détails du crédit"
+                    android:layout_gravity="center"
+                    android:text="Informations"
                     android:textColor="#1A1A1A"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:text="Description / Motif"
-                    android:textColor="#1A1A1A"
-                    android:textStyle="bold" />
-
-                <EditText
-                    android:id="@+id/edit_description_dette"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="8dp"
-                    android:background="@drawable/edittext_bg"
-                    android:hint="Ex: Achat de ciment"
-                    android:inputType="text"
-                    android:paddingLeft="15dp"
-                    android:textSize="14sp" />
+                    android:layout_marginTop="4dp"
+                    android:layout_gravity="center"
+                    android:text="Remplissez les détails du client ci-dessous"
+                    android:textColor="#757575"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="Montant (F CFA)"
+                    android:text="Nom complet"
                     android:textColor="#1A1A1A"
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/edit_montant_dette"
+                    android:id="@+id/edit_nom"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginTop="8dp"
                     android:background="@drawable/edittext_bg"
-                    android:hint="Ex: 5000"
-                    android:inputType="numberDecimal"
+                    android:hint="@string/votre_nom"
                     android:paddingLeft="15dp"
                     android:textSize="14sp" />
 
@@ -93,28 +81,65 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="Date de la dette"
+                    android:text="@string/tel"
                     android:textColor="#1A1A1A"
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/edit_date_dette"
+                    android:id="@+id/edit_telephone"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginTop="8dp"
                     android:background="@drawable/edittext_bg"
-                    android:hint="JJ/MM/AAAA"
-                    android:inputType="date"
+                    android:hint="@string/indic"
+                    android:inputType="phone"
+                    android:paddingLeft="15dp"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/adresse"
+                    android:textColor="#1A1A1A"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edit_adresse"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/edittext_bg"
+                    android:hint="@string/ville"
+                    android:paddingLeft="15dp"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Solde initial (F CFA)"
+                    android:textColor="#1A1A1A"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edit_solde"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/edittext_bg"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
                     android:paddingLeft="15dp"
                     android:textSize="14sp" />
 
                 <Button
-                    android:id="@+id/btn_save_dette"
+                    android:id="@+id/btn_save_client"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:layout_marginTop="24dp"
                     android:backgroundTint="#C4562C"
-                    android:text="Enregistrer la dette"
+                    android:text="Enregistrer le client"
                     android:textAllCaps="false"
                     android:textColor="@android:color/white"
                     android:textSize="16sp"

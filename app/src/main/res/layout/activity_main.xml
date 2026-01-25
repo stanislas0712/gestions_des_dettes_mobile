@@ -1,6 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <include
+        android:id="@+id/card_total_clients"
+        layout="@layout/item_stat_card" />
+
+    <include
+        android:id="@+id/card_total_dette"
+        layout="@layout/item_stat_card" />
+
+    <include
+        android:id="@+id/card_montant_payé_journalier"
+        layout="@layout/item_stat_card" />
+
+</LinearLayout>

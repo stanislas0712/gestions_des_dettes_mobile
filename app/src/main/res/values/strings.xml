@@ -20,7 +20,7 @@
     <string name="top_debtors">Clients les plus endettés</string>
 
     <!-- Clients -->
-    <string name="clients">Clients</string>
+
     <string name="add_client">Ajouter un client</string>
     <string name="edit_client">Modifier le client</string>
     <string name="client_details">Détails du client</string>
@@ -77,6 +77,46 @@
     <string name="payment_added">Paiement enregistré</string>
     <string name="confirm_delete_client">Voulez-vous vraiment supprimer ce client et toutes ses dettes ?</string>
     <string name="confirm_delete_dette">Voulez-vous vraiment supprimer cette dette ?</string>
+    <string name="mtn">montant</string>
+    <string name="confirm_delete_payment">Voulez-vous vraiment supprimer ce paiement ?</string>
+    <string name="confirm_logout">Voulez-vous vraiment vous déconnecter ?</string>
+    <string name="confirm_delete_all_payments">Voulez-vous vraiment supprimer tous les paiements ?</string>
+    <string name="mots_de_passe">Mot de passe</string>
+    <string name="bienvenue">Bienvenue</string>
+    <string name="flotter_haut">Inscrivez-vous pour commencer à gérer vos crédits</string>
+    <string name="flotter_bas">Application sécurisée pour la gestion des crédits</string>
+    <string name="cree_compte">Créer un compte</string>
+    <string name="rechercher_client">Rechercher un client...</string>
+    <string name="histo_paiement">Historique des Paiements</string>
+
+    <string name="connexion">Connexion</string>
+    <string name="telephone">Votre numére de téléphone</string>
+    <string name="tel">Téléphone</string>
+    <string name="entre_mot_de_passe">Entrez votre mot de passe</string>
+    <string name="confirmer_votre_mot_de_passe">Confirmer votre mot de passe</string>
+    <string name="adresse">Votre adresse</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="ville">Ville, Quartier</string>
+    <string name="indic">+226 -- -- -- --</string>
+    <string name="votre_nom">Votre nom complet</string>
+    <string name="inscription">S\'inscrire</string>
+    <string name="clients">Clients</string>
+    <string name="dettes">Dettes</string>
+    <string name="paiements">Paiements</string>
+    <string name="historique">Historique</string>
+    <string name="solde_initial">Solde initial</string>
+    <string name="solde_final">Solde final</string>
+    <string name="montant_total">Montant total</string>
+   <string name="gerer_vos_credit">Gérez les crédits de vos clients</string>
+    <string name="nouveau_client">+ Nouveau client</string>
+
+
+
+"
+
+
+
+
     <string name="yes">Oui</string>
     <string name="no">Non</string>
 
